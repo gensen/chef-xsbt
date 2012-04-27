@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+test -f ~/.sbtconfig && . ~/.sbtconfig
+SBT_OPTS="${SBT_OPTS} -Dfile.encoding=UTF8 -Xmx1536M -Xss1M -XX:+CMSClassUnloadingEnabled -XX:MaxPermSize=256m"
+exec java -Xmx512M ${SBT_OPTS} -jar <%= "#{node['xsbt']['home']}/lib/sbt-launch-#{node['xsbt']['version']}.jar" %> "$@"
