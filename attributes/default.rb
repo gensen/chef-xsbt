@@ -18,4 +18,4 @@
 #
 
 default['xsbt']['home'] = "/usr/local"
-default['xsbt']['version'] = "0.11.2"
+default['xsbt']['version'] = "0.11.3"

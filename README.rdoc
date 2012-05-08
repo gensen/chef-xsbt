@@ -15,7 +15,7 @@ Opscode cookbooks:
 = ATTRIBUTES:
 
 * `xsbt[:home]` - directory to deploy to (/opt by default)
-* `xsbt[:version]` - version of SBT to install (0.11.2 by default)
+* `xsbt[:version]` - version of SBT to install (0.11.3 by default)
 
 = USAGE:
 
