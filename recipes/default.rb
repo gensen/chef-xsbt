@@ -25,7 +25,7 @@ version = node['xsbt']['version']
 
 unless File.exists?("#{xsbt_home}/lib/sbt-launch-#{version}.jar")
   remote_file "#{xsbt_home}/lib/sbt-launch-#{version}.jar" do
-    source "http://typesafe.artifactoryonline.com/typesafe/ivy-releases/org.scala-tools.sbt/sbt-launch/#{version}/sbt-launch.jar"
+    source "http://typesafe.artifactoryonline.com/typesafe/ivy-releases/org.scala-sbt/sbt-launch/#{version}/sbt-launch.jar"
     mode "0644"
   end
 end
