@@ -1,0 +1,32 @@
+{
+  "name": "xsbt",
+  "description": "Installs/Configures xsbt",
+  "long_description": "= DESCRIPTION:\n\nInstalls the sbt (simple-build-tool).\n\n= REQUIREMENTS:\n\nPlatform:\n\nTested on Ubuntu 10.04.\n\nOpscode cookbooks:\n\n* java\n\n= ATTRIBUTES:\n\n* `xsbt[:home]` - directory to deploy to (/opt by default)\n\n= USAGE:\n\nSimply add `recipe[xsbt]` to a run list.\n\n# LICENSE AND AUTHOR:\n\nAuthor:: Aaron Valade (<aaron@generalsensing.com>)\n\nCopyright:: 2011, General Sensing LTD\n\nLicensed under the Apache License, Version 2.0 (the \"License\");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n\n    http://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an \"AS IS\" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License.\n\n\n",
+  "maintainer": "General Sensing LTD",
+  "maintainer_email": "aaron@generalsensing.com",
+  "license": "Apache 2.0",
+  "platforms": {
+    "ubuntu": ">= 0.0.0",
+    "debian": ">= 0.0.0"
+  },
+  "dependencies": {
+    "java": ">= 0.0.0"
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "groupings": {
+  },
+  "recipes": {
+  },
+  "version": "0.0.1"
+}

@@ -1,8 +1,11 @@
-= DESCRIPTION:
+# DESCRIPTION:
 
 Installs the sbt (simple-build-tool).
 
-= REQUIREMENTS:
+[![Build Status](https://secure.travis-ci.org/gensen/chef-xsbt.png?branch=master)](http://travis-ci.org/gensen/chef-xsbt)
+
+
+# REQUIREMENTS:
 
 Platform:
 
@@ -12,12 +15,12 @@ Opscode cookbooks:
 
 * java
 
-= ATTRIBUTES:
+# ATTRIBUTES:
 
 * `xsbt[:home]` - directory to deploy to (/opt by default)
 * `xsbt[:version]` - version of SBT to install (0.11.3 by default)
 
-= USAGE:
+# USAGE:
 
 Simply add `recipe[xsbt]` to a run list.
 

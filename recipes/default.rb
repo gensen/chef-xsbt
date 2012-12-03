@@ -17,7 +17,9 @@
 # limitations under the License.
 #
 
-include_recipe "java"
+unless node['platform'] == "mac_os_x"
+  include_recipe "java"
+end
 
 tmp = Chef::Config[:file_cache_path]
 xsbt_home = "#{node['xsbt']['home']}"
